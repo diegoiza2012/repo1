@@ -12,6 +12,7 @@ namespace ConsoleApp2
             testEntities te = new testEntities();
             te.t1.ToList().ForEach(p => Console.Write(p.id.ToString(), p.c1));
             Console.ReadKey();
+            //
         }
     }
 }
